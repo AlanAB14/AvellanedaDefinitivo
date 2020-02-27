@@ -1,6 +1,15 @@
 
+        $(function(){
+          $("body").hide().fadeIn(2000);
+      })
+    
+     
   $(document).ready(function () {
     
+ 
+    
+  
+    //FUNCIÓN PARA CAMBIAR IMAGEN EN NAVBAR
     $("#imagen-cambiante-masculino").hide();
     
 

@@ -39,6 +39,45 @@
      text-transform: uppercase;
 }
 
+@media (max-width: 767px){
+     .vertical-line{
+          display: none;
+     }
+     .partidos{
+          width: 100%;
+          height: 3.2rem;
+     }
+     .mobile-nav{
+          width: 100%;
+          padding-top: 1vh;
+     }
+
+.mobile-nav p{
+     
+     display: inline;
+}
+.leyenda1{
+     
+     font-size: 3vmin;
+     margin-left: 0;
+     padding-left: .5rem;
+     
+     padding-right: 0;
+}
+.leyenda2{
+     
+     
+     font-size: .55rem;
+     padding-left: .5rem;
+     padding-top: 0;
+}
+.mobile-nav p img{
+  display: none;
+}
+
+}
+
+
 #nombre-club-footer{
      font-family: 'Roboto Condensed' ;
      font-size: 34px;
@@ -53,6 +92,7 @@ div.vertical-line{
       float: left;
 }
 .img-header1{
+      width: 16%;
       margin-left: 15px;
       margin-top: 2px;
       margin-right: -170px;
